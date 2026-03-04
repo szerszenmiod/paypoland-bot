@@ -1,0 +1,56 @@
+{
+    "token": "DISCORD_BOT_TOKEN",
+    "guild_id": 123456789012345678,
+    "role_names": {
+        "admin": "Admin",
+        "staff": "Staff",
+        "verified": "Verified Exchanger",
+        "client": "Client",
+        "muted": "Muted"
+    },
+    "channel_names": {
+        "regulamin": "📜regulamin",
+        "ogloszenia": "📢ogłoszenia",
+        "informacje": "ℹ️informacje",
+        "status": "🤖status-bota",
+        "chat": "💬chat",
+        "memes": "😂memes",
+        "offtopic": "☕off-topic",
+        "vouches": "🚀vouches",
+        "transakcje": "📁transakcje",
+        "panel_odbierz": "💰panel-odbierz-pieniadze",
+        "panel_ticket": "🎫panel-ticket"
+    },
+    "category_names": {
+        "info": "📌 INFORMACJE",
+        "social": "💬 SPOŁECZNOŚĆ",
+        "exchange": "🔄 EXCHANGE",
+        "tickets": "🎟️ TICKETY"
+    },
+    "banner_path": "assets/banner_1200x200.png",
+    "logo_url": "https://twojahost.com/logo.png",
+    "icon_url": "https://twojahost.com/icon.png",
+    "commission_rate": 0.4,
+    "verified_threshold": 3,
+    "elite_threshold": 10,
+    "vip_threshold": 25,
+    "min_exchange_amount": 10,
+    "max_exchange_amount": 1000,
+    "automod": {
+        "block_invites": true,
+        "block_all_links": false,
+        "spam_limit": 3,
+        "spam_timeframe": 5,
+        "mute_duration": 10,
+        "censor_swears": true,
+        "ignored_channels": ["🚀vouches", "📁transakcje"]
+    },
+    "colors": {
+        "success": 16731197,
+        "error": 16724787,
+        "warning": 16755200,
+        "info": 39127,
+        "ticket": 16711850,
+        "gold": 16766720
+    }
+}
